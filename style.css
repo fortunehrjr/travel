@@ -1,0 +1,25 @@
+.pic2{
+    height: 400px;
+    width: auto;
+}
+.logo-pic{
+    height: 100px;
+    width: auto;
+}
+@keyframes left {
+    from{
+        transform: translateX(220px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.fade-in{
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+.fade-in.appear{
+    opacity: 1;
+}
